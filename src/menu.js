@@ -5,7 +5,7 @@ import asada2 from "./images/asada2.png";
 import carnitas2 from "./images/carnitas2.png";
 import pastor2 from "./images/pastor2.png";
 import asada3 from "./images/asada3.png";
-// import carnitas3 from "./images/carnitas3.png";
+import carnitas3 from "./images/carnitas3.png";
 import pastor3 from "./images/pastor3.png";
 function createItem(image, label) {
     const item = document.createElement("div");
@@ -59,7 +59,7 @@ function renderMenuPage() {
     const quesadillaPics = document.createElement("div");
     quesadillaPics.classList.add("image-container");
     quesadillaPics.appendChild(createItem(asada3, "Asada quesadilla: $10.50"));
-    // quesadillaPics.appendChild(createItem(carnitas3, "Carnitas quesadilla: $10.50"));
+    quesadillaPics.appendChild(createItem(carnitas3, "Carnitas quesadilla: $10.50"));
     quesadillaPics.appendChild(createItem(pastor3, "Pastor quesadilla: $10.50"));
     content.append(quesadillaPics);
 

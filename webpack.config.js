@@ -6,6 +6,7 @@ module.exports = {
   entry: "./src/index.js", // Main entry point for your app
   output: {
     filename: "main.js", // Output bundle name
+    publicPath: '/restaurant/',
     path: path.resolve(__dirname, "dist"), // Output folder
     clean: true, // Clears dist before each build
   },
